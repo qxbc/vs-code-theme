@@ -1,0 +1,29 @@
+{
+  "name": "qxbc-theme-dark",
+  "displayName": "qxbc Theme Dark",
+  "description": "qxbc Theme Dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qxbc/"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "qxbc Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/qxbc Theme Dark-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "editor.cursorBlinking": "phase",
+      "editor.cursorSmoothCaretAnimation": "on"
+    }
+  }
+}
